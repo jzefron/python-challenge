@@ -1,0 +1,7 @@
+FInancial Analysis 
+----------------------------
+Total Monthes: 86
+Total: 38382578
+Average Gain: 446309.05
+Biggest montly gain: Feb-2012 (1170593)
+Biggest montly loss:Sep-2013 (-1196225)
