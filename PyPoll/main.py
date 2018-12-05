@@ -17,20 +17,22 @@ with open(csvpath, newline='') as csvfile:
     for row in csvreader:
         totVotes +=1
         #print(row[2])
-       # print(candidates)
-        try:
+        vote = row[2]
+        if vote in candidates:
             #print("in try")
             vote_data[candidates.index(row[2])] += 1
-        except:
+        else:
            # print("exception")
             candidates.append(row[2])
             vote_data.append(1)
 
-print("Election Results")
+print("Election Results") 
 print("-------------------------")
 
 print("Total Votes:",totVotes)
 print("-------------------------")
 
 for i,candidate in enumerate(candidates):
-    print (candidate +" recieved:", str(vote_data[i]))
+    vote = vote_data[i]
+
+    print (candidate +" recieved:",  str(round(vote/totVotes*100))+"% (" +str(vote) +")")
