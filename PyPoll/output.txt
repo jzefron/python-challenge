@@ -1,0 +1,9 @@
+Vote Analysis 
+----------------------------
+Total Votes: 3521001
+----------------------------
+Khan recieved:63% (2218231)
+Correy recieved:20% (704200)
+Li recieved:14% (492940)
+O'Tooley recieved:3% (105630)
+Winner is:KHAN
